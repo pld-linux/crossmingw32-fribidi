@@ -2,13 +2,13 @@
 Summary:	GNU FriBidi - library implementing the Unicode BiDi algorithm - cross MinGW32 version
 Summary(pl.UTF-8):	GNU FriBidi - biblioteka implementująca algorytm Unicode BiDi - wersja skrośna dla MinGW32
 Name:		crossmingw32-%{realname}
-Version:	1.0.12
+Version:	1.0.16
 Release:	1
 License:	LGPL v2.1+
 Group:		Development/Libraries
 #Source0Download: https://github.com/fribidi/fribidi/releases
 Source0:	https://github.com/fribidi/fribidi/releases/download/v%{version}/%{realname}-%{version}.tar.xz
-# Source0-md5:	21185b398635a7fc0d3ff0a7578c4791
+# Source0-md5:	333ad150991097a627755b752b87f9ff
 URL:		https://fribidi.org/
 BuildRequires:	autoconf >= 2.64
 BuildRequires:	automake >= 1:1.11.1
